@@ -24,14 +24,32 @@
     align-content: center;
 }
 
+.flexfinal {
+    display: flex;
+    justify-content: space-between;
+}    
+
+
 .flex-center {
     justify-content: center;
 }
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 5px;
 }
+
+button {
+        border: none;
+        padding: 10px 10px;
+        border-radius: 30%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+}       
+       
+        
 
 
 
@@ -51,7 +69,13 @@ a {
 
 ul {
     list-style: none;
+    padding: 20px;
 }
+
+li {
+    padding:5px;
+}
+
 
 #intestazione {
     background-image: url('../img/jumbo.png');
@@ -86,8 +110,10 @@ main section {
 footer{
     background-color: var(---color-black);
     color: var(---color-white);
+    
 }
 
 .info {
     color: var(---color-info);
 }
+
