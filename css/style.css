@@ -1,5 +1,37 @@
+.debug {
+    border: 1px solid black;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    ---color-header: #2a5ee8;
+    ---color-black: #23272a;
+    ---color-white: #ffffff;
+    ---color-lightgray: #f6f6f6;
+    ---color-info: #7289da;
+}
+
+/*header*/
+header {
+    background-color: var(---color-header);
+    color: var(---color-white);
+}
+
+
+
+
+/*main*/
+
+
+
+
+/*footer*/
+footer{
+    background-color: var(---color-black);
+    color: var(---color-white);
 }
