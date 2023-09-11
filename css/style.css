@@ -16,10 +16,33 @@
     ---color-info: #7289da;
 }
 
+.flex {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(---color-white);
+    padding:6px 10px;
+}
 /*header*/
 header {
     background-color: var(---color-header);
     color: var(---color-white);
+    font-family: 'Noto Sans', sans-serif;
 }
 
 
