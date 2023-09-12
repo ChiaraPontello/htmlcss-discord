@@ -1,3 +1,4 @@
+/*BASE*/
 .debug {
     border: 1px solid transparent;
 }
@@ -21,70 +22,13 @@ body {
     ---color-info: #7289da;
 }
 
-.flexbase {
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-}
-
-.flexfinal {
-    display: flex;
-    justify-content: space-between;
-}    
-
-
-.flex-center {
-    justify-content: center;
-}
-
 .container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0px 10px;
 }
 
-button {
-        border: none;
-        padding: 10px 20px;
-        border-radius: 50px;
-        text-align: center;
-        display: inline-block;
-    }       
-       
-.btn-dark {
-    background-color: var(---color-black);
-    color: var(---color-white);
-}
-
-
-.btn-viola {
-    background-color: var(---color-info);
-}
-
-h1 {
-    font-size: 3em;
-    padding: 15px 0;
-}
-
-h2{
-    font-size: 2.3;
-    padding:10px 0;
-}
-
-p {
-    line-height: 1.8em;
-    font-size: 1.1em;
-    padding: 15px 0;
-}
-/*header*/
-header {
-    background-color: var(---color-header);
-    color: var(---color-white);
-}
-
-
+/*HEADER-FOOTER*/
 a {
     color: var(---color-white);
     padding:6px 10px;
@@ -109,6 +53,85 @@ i {
     padding:5px;
 }
 
+/*BOTTONI*/
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+}       
+   
+.btn-dark {
+background-color: var(---color-black);
+color: var(---color-white);
+}
+
+
+.btn-viola {
+background-color: var(---color-info);
+}
+
+/*FONT*/
+h1 {
+font-size: 3em;
+padding: 15px 0;
+}
+
+h2{
+font-size: 2em;
+padding: 10px 0;
+text-align: center;
+}
+
+p {
+    line-height: 1.8em;
+    font-size: 1.1em;
+    padding: 15px 0;
+}
+
+.text-left {
+    text-align: left;
+    font-size: 2.5em;
+}
+
+/*FLEX*/
+.flexbase {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.flexfinal {
+    display: flex;
+    justify-content: space-between;
+}    
+
+
+.flex-center {
+    justify-content: center;
+}
+
+.flexmain{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexreverse {
+    flex-direction: row-reverse;
+}
+
+
+/*HEADER*/
+header {
+    background-color: var(---color-header);
+    color: var(---color-white);
+}
+
 #intestazione {
     background-image: url('../img/jumbo.png');
     min-height: 500px;
@@ -128,7 +151,7 @@ i {
 
 
 
-/*main*/
+/*MAIN*/
 
 .grigio {
     background-color: var(---color-lightgray);
@@ -163,16 +186,6 @@ main img {
     padding: 0 auto;
 }
 
-.flexmain{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.flexreverse {
-    flex-direction: row-reverse;
-}
 
 .finale h2{
     background-image: url('../img/stars.svg');
@@ -181,10 +194,6 @@ main img {
     margin: 0 auto;
     background-size: contain;
     background-position: top center;
-}
-
-h2 {
-    text-align: center;
 }
 
 .onda{
@@ -196,7 +205,7 @@ h2 {
 
 
 
-/*footer*/
+/*FOOTER*/
 footer{
     background-color: var(---color-black);
     color: var(---color-white);
