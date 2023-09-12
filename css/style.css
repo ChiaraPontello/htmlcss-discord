@@ -9,6 +9,7 @@
 }
 
 body {
+    color: var(---color-black);
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -57,10 +58,6 @@ button {
     color: var(---color-white);
 }
 
-.btn-white {
-    background-color: var(---color-white);
-    color: var(---color-black);
-}
 
 .btn-viola {
     background-color: var(---color-info);
@@ -94,15 +91,23 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
+
 ul {
     list-style: none;
     padding: 20px;
 }
 
 li {
-    padding:5px;
+    padding:5px 10px;
 }
 
+i {
+    padding:5px;
+}
 
 #intestazione {
     background-image: url('../img/jumbo.png');
@@ -145,7 +150,7 @@ main img {
 
 .section-text.last{
     width: 50%;
-    padding: 30px 10px;
+    padding: 0 auto;
     text-align: center;
 }
 
@@ -155,7 +160,7 @@ main img {
 
 .section-image.last{
     width: 100%;
-    padding: 30px 10px;
+    padding: 0 auto;
 }
 
 .flexmain{
