@@ -1,5 +1,5 @@
 .debug {
-    border: 1px solid black;
+    border: 1px solid transparent;
 }
 
 * {
@@ -174,11 +174,22 @@ main img {
     flex-direction: row-reverse;
 }
 
+.finale h2{
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    width: 50%;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: top center;
+}
 
+h2 {
+    text-align: center;
+}
 
-
-
-
+.onda{
+    transform:rotate(180deg)
+}
 
 
 
